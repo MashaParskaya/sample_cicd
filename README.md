@@ -2,6 +2,8 @@
 
 This project demonstrates a complete CI/CD pipeline for a C++ library that performs basic arithmetic operations. The library includes a function to add two floating-point numbers. The project uses CMake for building, GTest for testing, Google Benchmark for performance measurement, and Doxygen for documentation generation.
 
+[GitHub Pages](https://mashaparskaya.github.io/sample_cicd/)
+
 ## Table of Contents
 
 - [Overview](#overview)
