@@ -27,8 +27,6 @@ The project contains a simple C++ library with the following features:
 Before you start, ensure you have the following installed:
 - CMake (>= 3.10)
 - C++17 compatible compiler (e.g., GCC, Clang)
-- GTest
-- Google Benchmark
 - Doxygen
 
 ## Building the Project
