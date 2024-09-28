@@ -11,7 +11,6 @@ This project demonstrates a complete CI/CD pipeline for a C++ library that perfo
 - [Building the Project](#building-the-project)
 - [Running Tests](#running-tests)
 - [Performance Measurement](#performance-measurement)
-- [Generating Documentation](#generating-documentation)
 - [CI/CD Pipeline](#ci-cd-pipeline)
 
 ## Overview
