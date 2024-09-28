@@ -38,8 +38,8 @@ To build the project, follow these steps:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/sample_ci_cd.git
-   cd sample_ci_cd
+   git clone https://github.com/MashaParskya/sample_cicd.git
+   cd sample_cicd
    ```
 
 2. Create a build directory and navigate into it:
@@ -58,24 +58,15 @@ To build the project, follow these steps:
 
 To run the unit tests, execute the following command from the build directory:
 ```
-./bin/sample_tests
+./bin/tests
 ```
 
 ## Performance Measurement
 
 To run the performance benchmarks, execute the following command from the build directory:
 ```
-./bin/sample_benchmarks
+./bin/g_benchmark
 ```
-
-## Generating Documentation
-
-To generate the documentation, execute the following command from the build directory:
-```
-make doc
-```
-
-The generated documentation will be located in the `doc/html` directory.
 
 ## CI/CD Pipeline
 
@@ -86,17 +77,3 @@ The project is set up with a CI/CD pipeline using GitHub Actions. The pipeline p
 - Generates documentation.
 
 You can find the workflow configuration in the `.github/workflows` directory.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-1. Fork the repository.
-2. Create a new branch: $ git checkout -b feature/new-feature $
-3. Make your changes and commit them: $ git commit -m "Add some feature" $
-4. Push to the branch: $ git push origin feature/new-feature $
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
